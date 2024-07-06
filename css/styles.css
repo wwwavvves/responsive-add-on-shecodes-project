@@ -4,3 +4,15 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+h1 {
+    font-size: 96px;
+}
+
+footer {
+    font-size: 11px;
+    color: grey;
+}
+footer a {
+     color: grey;
+}
