@@ -25,7 +25,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,7 +44,7 @@
 
 .hero a {
   margin: 50px auto;
-  padding: 18px 32px;
+  padding: 18px 50px;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -61,23 +60,16 @@
   color: white;
 }
 
-section {
-  margin: 30px auto;
-  padding: 30px;
-}
-
 .grid {
   display: grid;
   max-width: 1200px;
+  margin: 30px auto;
+  padding: 30px;
 }
 
 .grid-2-cols {
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
-}
-
-.grid-2-cols img {
-  max-width: 100%;
 }
 
 .grid-3-cols-1-narrow {
@@ -86,15 +78,70 @@ section {
   grid-gap: 30px;
 }
 
-main h3 {
+img {
+  max-width: 100%;
+}
+
+h3 {
   font-size: 40px;
   margin-bottom: 15px;
   line-height: 1;
 }
 
-main p {
+.about p {
   font-size: 16px;
   opacity: 0.7;
+}
+
+.releases {
+  background-color: #f8f8f8;
+  padding: 50px 20px 20px 20px;
+}
+
+.releases h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.cards {
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+}
+
+.artist {
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.card a {
+  display: block;
+  padding: 18px 32px;
+  margin: 30px 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--off-black);
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  transition: all 150ms ease-in-out;
+  text-align: center;
+}
+
+.card a:hover {
+  background-color: var(--blue);
+  color: white;
 }
 
 footer h5 {
