@@ -63,7 +63,6 @@
 .grid {
   display: grid;
   max-width: 1200px;
-  margin: 30px auto;
   padding: 30px;
 }
 
